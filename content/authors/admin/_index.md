@@ -18,7 +18,7 @@ bio: My research interests include AI4DB (Artificial Intelligence for Database),
 
 # Interests to show in About widget
 interests:
-- AI4DB
+- AI4DB (Artificial Intelligence for Database)
 - Query Optimization
 - Artificial Intelligence
 
