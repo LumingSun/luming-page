@@ -19,12 +19,15 @@ feature:
 - icon: python
   icon_pack: fab
   name: Python
+  description: Data Science & Development
 - icon: brain
   icon_pack: fas
   name: Deep Learning
+  description: Pytorch 
 - icon: database
   icon_pack: fas
   name: Database
+  description: Query Optimization
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
