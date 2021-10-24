@@ -20,7 +20,7 @@ feature:
   icon_pack: fab
   name: Python
 - icon: brain
-  icon_pack: far
+  icon_pack: fas
   name: Deep Learning
 - icon: database
   icon_pack: fas
