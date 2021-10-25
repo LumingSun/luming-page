@@ -13,20 +13,20 @@ jobs:
 
     steps:
       - name: Set up Go
-      - uses: actions/setup-go@v2
+        uses: actions/setup-go@v2
         with:
           go-version: '^1.13.1' # The Go version to download (if necessary) and use.
-      - run: go version
+        run: go version
 
-    - name: Checkout master
-      uses: actions/checkout@v1
-      with:
-        submodules: true
+      - name: Checkout master
+        uses: actions/checkout@v1
+        with:
+          submodules: true
 
-    - name: Hugo Deploy GitHub Pages
-      uses: benmatselby/hugo-deploy-gh-pages@master
-      env:
-        HUGO_VERSION: 0.88.1
-        TARGET_REPO: LumingSun/lumingsun.github.io
-        TOKEN: ${{ secrets.hugo }}
+      - name: Hugo Deploy GitHub Pages
+        uses: benmatselby/hugo-deploy-gh-pages@master
+        env:
+          HUGO_VERSION: 0.88.1
+          TARGET_REPO: LumingSun/lumingsun.github.io
+          TOKEN: ${{ secrets.hugo }}
 
