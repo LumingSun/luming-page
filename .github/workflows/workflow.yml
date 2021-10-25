@@ -5,34 +5,40 @@ on:
     branches:
       - master
 
-jobs:
-  build:
+# jobs:
+#   build:
 
-    runs-on: ubuntu-latest
+#     runs-on: ubuntu-latest
 
 
-    # steps:
-    #   - name: Checkout master
-    #     uses: actions/checkout@v1
-    #     with:
-    #       submodules: true
+#     steps:
+#       - name: Checkout master
+#         uses: actions/checkout@v2
+#         with:
+#           submodules: true
+#           fetch-depth: 0
 
-    #   - name: Set up Go
-    #     uses: actions/setup-go@v2
-    #     with:
-    #       go-version: '^1.15.0' # The Go version to download (if necessary) and use.
+#       - name: Set up Go
+#         uses: actions/setup-go@v2
+#         with:
+#           go-version: '^1.15.0' # The Go version to download (if necessary) and use.
       
-    #   - name: Test Go
-    #     run: go version
+#       - name: Test Go
+#         run: go version
 
-    #   - name: Hugo Deploy GitHub Pages
-    #     uses: benmatselby/hugo-deploy-gh-pages@master
-    #     env:
-    #       HUGO_VERSION: 0.88.1
-    #       TARGET_REPO: LumingSun/lumingsun.github.io
-    #       TOKEN: ${{ secrets.hugo }}
-    #       HUGO_ARGS: '-t academic'
-    #       CNAME: lumingsun.github.io
+#       - name: Hugo Deploy GitHub Pages
+#         uses: benmatselby/hugo-deploy-gh-pages@master
+#         env:
+#           HUGO_VERSION: 0.88.1
+#           TARGET_REPO: LumingSun/lumingsun.github.io
+#           TOKEN: ${{ secrets.hugo }}
+#           HUGO_ARGS: '-t academic'
+#           CNAME: lumingsun.github.io
+
+
+jobs:
+  Build_and_Deploy:
+    runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
         with:
@@ -42,17 +48,20 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
-          # extended: true
+          hugo-version: '0.78.2'
+          extended: true
+          
+      - name: Setup Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: '1.15' # The Go version to download (if necessary) and use.
 
       - name: Build
         run: hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main'
         with:
           personal_token: ${{ secrets.hugo }}
           publish_dir: ./public
           external_repository: lumingsun/lumingsun.github.io
-          cname: lumingsun.github.io
