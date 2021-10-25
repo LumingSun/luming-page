@@ -20,6 +20,6 @@ jobs:
       uses: benmatselby/hugo-deploy-gh-pages@master
       env:
         HUGO_VERSION: 0.68.3
-        TARGET_REPO: LumingSun/luming-page
+        TARGET_REPO: LumingSun/lumingsun.github.io
         TOKEN: ${{ secrets.hugo }}
 
