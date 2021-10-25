@@ -10,11 +10,6 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    steps:
-    - name: Checkout master
-      uses: actions/checkout@v1
-      with:
-        submodules: true
 
     steps:
       - uses: actions/checkout@v2
@@ -22,6 +17,11 @@ jobs:
         with:
           go-version: '^1.13.1' # The Go version to download (if necessary) and use.
       - run: go version
+
+    - name: Checkout master
+      uses: actions/checkout@v1
+      with:
+        submodules: true
 
     - name: Hugo Deploy GitHub Pages
       uses: benmatselby/hugo-deploy-gh-pages@master
