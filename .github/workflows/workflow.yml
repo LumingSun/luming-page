@@ -64,4 +64,5 @@ jobs:
         with:
           personal_token: ${{ secrets.hugo }}
           publish_dir: ./public
+          publish_branch: master
           external_repository: lumingsun/lumingsun.github.io
