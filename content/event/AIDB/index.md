@@ -2,15 +2,22 @@
 title: "AI4DB: AI Meets Query Optimization"
 
 event: PhD salon
-
+event_url: ''
 location: Renmin University of China
+address:
+  street: Zhongguancun Street
+  city: Beijing
+  region: Haidian
+  postcode: '014900'
+  country: China
 
+summary: Short tutorial of AI4DB and talk about MOSE.
 abstract: "Traditional database systems and data management techniques are facing great challenge due to the 3V’s in Big Data. The development of artificial intelligence provides a brand-new opportunity for database management systems with its power in learning, reasoning and planning. Through learning from data distribution, query workload and query execution performance, the systems powered by artificial intelligence are able to forecast future workload, tune database configurations, partition data blocks, index on proper columns, estimate selectivity, optimize query plan and control query concurrency automatically. Also, some machine learning models can replace core components of a database such as index structures. We introduce new research on database systems with artificial intelligence and state the existing problems and potential solutions. And we propose MOSE, a learning-based MOnotonic Selectivity Estimator for query optimization. Mose can offer accurate and fast selectivity estimation for different dataset and workload, maintaining basic rules in selectivity estimation such as monotonicity and consistency."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
 date: "2021-11-10T13:00:00Z"
-# date_end: "2030-06-01T15:00:00Z"
+date_end: "2021-11-10T14:00:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -22,19 +29,19 @@ tags: []
 # Is this a featured talk? (true/false)
 featured: true
 
-# image:
-#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
-#   focal_point: Right
+image:
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  focal_point: Right
 
 links:
-# - icon: twitter
-#   icon_pack: fab
-#   name: Follow
-#   url: https://twitter.com/georgecushen
-# url_code: ""
-# url_pdf: ""
+- icon: twitter
+  icon_pack: fab
+  name: Follow
+  url: https://twitter.com/georgecushen
+url_code: ""
+url_pdf: ""
 url_slides: "MOSE.pdf"
-# url_video: ""
+url_video: ""
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
