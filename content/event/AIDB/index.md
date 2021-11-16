@@ -6,8 +6,8 @@ event_url: ''
 location: Renmin University of China
 address:
   street: Zhongguancun Street
-  city: Beijing
-  region: Haidian
+  city: Haidian
+  region: Beijing
   postcode: '014900'
   country: China
 
@@ -30,14 +30,14 @@ tags: []
 featured: true
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: ''
   focal_point: Right
 
 links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/georgecushen
+  url: https://twitter.com/lumingsun
 url_code: ""
 url_pdf: ""
 url_slides: "MOSE.pdf"
