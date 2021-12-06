@@ -27,7 +27,7 @@ experience:
     company_url: ''
     company_logo: ''
     location: Beijing
-    date_start: '2021-02'
+    date_start: '2021-02-22'
     date_end: ''
     description: Research and development in AI for systems, especially in resource usage forecasting.
         
@@ -36,8 +36,8 @@ experience:
     company_url: ''
     company_logo: ''
     location: Beijing
-    date_start: '2020-06'
-    date_end: '2020-10'
+    date_start: '2020-06-06'
+    date_end: '2020-10-31'
     description: Research in learning-based cardinality estimation, especially in deep learning model pruning and incremental/decremental learning.
 
 design:
