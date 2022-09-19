@@ -14,13 +14,13 @@ organizations:
   url: https://www.ruc.edu.cn/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include AI4DB (Artificial Intelligence for Database), Query Optimization in DBMS and AI.
+bio: My research interests include AI4Sys, AI4DB (especially Query Optimization).
 
 # Interests to show in About widget
 interests:
-- AI4DB (Artificial Intelligence for Database)
+- AI4DB & AI4System
 - Query Optimization
-- Artificial Intelligence
+- Time Series Forecasting
 
 # Education to show in About widget
 education:
@@ -67,7 +67,7 @@ email: "sunluming@ruc.edu.cn"
 highlight_name: true
 ---
 
-Luming Sun is a PhD student at School of Information, Renmin University of China. His area of research is machine learning for systems, and he is particularly interested in providing traditional database systems with practical and reliable machine learning techniques for better performance. He maintains a paper list ([ML4DB-paper-list](https://github.com/LumingSun/ML4DB-paper-list)) about the topic for people who might be interested in. Right now, he is concentrating on query optimization with learning methods.
+Luming Sun is a PhD student at School of Information, Renmin University of China. His area of research is artificial intelligence for systems (AI4Sys), and he is particularly interested in providing traditional database systems with practical and reliable machine learning techniques for better performance (AI4DB). He maintains a paper list ([ML4DB-paper-list](https://github.com/LumingSun/ML4DB-paper-list)) about the topic for people who might be interested in. Right now, he is concentrating on query optimization with learning methods.
 <!-- Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. -->
