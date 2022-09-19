@@ -16,12 +16,12 @@ abstract: "We give a tutorial of research on AI for query optimization (cardinal
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2022-5-19T13:00:00Z"
-date_end: "2021-5-19T14:00:00Z"
+date: "2022-05-19T13:00:00Z"
+date_end: "2021-05-19T14:00:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2022-5-19T13:00:00Z"
+publishDate: "2022-05-19T13:00:00Z"
 
 authors: []
 tags: []
