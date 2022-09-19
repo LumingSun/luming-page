@@ -1,5 +1,5 @@
 ---
-title: "AI4DB: AI Meets Query Optimization"
+title: "MOSE: A learned Selectivity Estimator"
 
 event: PhD salon
 event_url: ''
