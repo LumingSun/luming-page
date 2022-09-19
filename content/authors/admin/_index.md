@@ -27,10 +27,10 @@ education:
   courses:
   - course: Master & PhD in Computer Science
     institution: Renmin University of China
-    year: 2017
+    year: 2017-2023(expected)
   - course: BSc in Computer Science
     institution: Xi'an Jiaotong University
-    year: 2013
+    year: 2013-2017
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
