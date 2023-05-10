@@ -23,12 +23,21 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
   - title: R&D Intern
+    company: Inspur Group
+    company_url: ''
+    company_logo: ''
+    location: Beijing
+    date_start: '2023-03-21'
+    date_end: ''
+    description: Research and development in database autonomous platform.
+
+  - title: R&D Intern
     company: ByteDance Infra System Lab
     company_url: ''
     company_logo: ''
     location: Beijing
     date_start: '2021-02-22'
-    date_end: ''
+    date_end: '2023-04-14'
     description: Research and development in AI for systems, especially in resource usage forecasting.
         
   - title: Research Intern

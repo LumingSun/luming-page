@@ -44,9 +44,9 @@ tags: []
 featured: false
 
 # Custom links (uncomment lines below)
-links:
-- name: Online
-  url: http://jos.org.cn/jos/article/abstract/6384?st=search
+# links:
+# - name: Online
+#   url: http://jos.org.cn/jos/article/abstract/6384?st=search
 
 url_pdf: ''
 url_code: ''
