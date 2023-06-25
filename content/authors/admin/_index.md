@@ -27,7 +27,7 @@ education:
   courses:
   - course: Master & PhD in Computer Science
     institution: Renmin University of China
-    year: 2017-2023(expected)
+    year: 2017-2023
   - course: BSc in Computer Science
     institution: Xi'an Jiaotong University
     year: 2013-2017
@@ -61,13 +61,13 @@ social:
   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "sunluming@ruc.edu.cn"
+email: "luming_s@126.com"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Luming Sun is a PhD student at School of Information, Renmin University of China. His area of research is artificial intelligence for systems (AI4Sys), and he is particularly interested in providing traditional database systems with practical and reliable machine learning techniques for better performance (AI4DB). He maintains a paper list ([ML4DB-paper-list](https://github.com/LumingSun/ML4DB-paper-list)) about the topic for people who might be interested in. Right now, he is concentrating on query optimization with learning methods.
+Luming Sun receieved his PhD degree from School of Information, Renmin University of China. His area of research is artificial intelligence for systems (AI4Sys), and he is particularly interested in providing traditional database systems with practical and reliable machine learning techniques for better performance (AI4DB). He maintains a paper list ([ML4DB-paper-list](https://github.com/LumingSun/ML4DB-paper-list)) about the topic for people who might be interested in. Right now, he is concentrating on query optimization with learning methods.
 <!-- Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. -->
