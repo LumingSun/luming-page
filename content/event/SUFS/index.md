@@ -6,7 +6,7 @@ event_url: 'https://www.bilibili.com/read/cv24960962?spm_id_from=444.41.list.car
 location: Online@Blibli
 
 
-summary: Paper reading on SUFS: A Generic Storage Usage Forecasting Service Through Adaptive Ensemble Learning
+summary: Paper reading on SUFS - A Generic Storage Usage Forecasting Service Through Adaptive Ensemble Learning
 # abstract: "Traditional database systems and data management techniques are facing great challenge due to the 3V’s in Big Data. The development of artificial intelligence provides a brand-new opportunity for database management systems with its power in learning, reasoning and planning. Through learning from data distribution, query workload and query execution performance, the systems powered by artificial intelligence are able to forecast future workload, tune database configurations, partition data blocks, index on proper columns, estimate selectivity, optimize query plan and control query concurrency automatically. Also, some machine learning models can replace core components of a database such as index structures. We introduce new research on database systems with artificial intelligence and state the existing problems and potential solutions. And we propose MOSE, a learning-based MOnotonic Selectivity Estimator for query optimization. Mose can offer accurate and fast selectivity estimation for different dataset and workload, maintaining basic rules in selectivity estimation such as monotonicity and consistency."
 
 # Talk start and end times.
