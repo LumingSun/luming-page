@@ -6,12 +6,12 @@ title: Luming Sun
 superuser: true
 
 # Role/position/tagline
-role: Ph.D. Candidate in CS
+role: Senior R&D Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Renmin University of China
-  url: https://www.ruc.edu.cn/
+- name: KaiwuDB @ Inspur Group
+  # url: https://www.ruc.edu.cn/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include AI4Sys, AI4DB (especially Query Optimization).
