@@ -40,7 +40,7 @@ links:
 #   url: https://twitter.com/lumingsun
 url_code: ""
 url_pdf: ""
-url_slides: "ai4queryoptimization.pdf"
+url_slides: ""
 url_video: ""
 
 # Markdown Slides (optional).
